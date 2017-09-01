@@ -1,6 +1,7 @@
-# pullusers
+# pullUsers
 
 This is an application on Node.js to parse and transform archived CSV files into a single file in JSON format.
+Application takes ziped files from pullusers/zipfile/data.zip and creates JSON file pullusers/users.json
 
 ## Getting Started
 
