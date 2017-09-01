@@ -1,0 +1,26 @@
+{
+  "name": "pullusers",
+  "version": "1.0.0",
+  "description": "pull users from ziped csv files to json",
+  "main": "csvToJsonReader.js",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "app-root-path": "^2.0.1",
+    "fs-extra": "^4.0.1",
+    "adm-zip": "^0.4.7",
+    "fast-csv": "^2.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test",
+    "start": "node csvToJsonReader.js"
+  },
+  "keywords": [
+    "zip",
+    "csv",
+    "json"
+  ],
+  "author": "o.piliugin",
+  "license": "ISC"
+}
